@@ -1,0 +1,176 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.hero-area {
+  height: auto;
+  background-image: url(../img/background\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-menu a {
+  text-decoration: none;
+}
+
+.logo-section {
+  margin: 51px 160px;
+  display: flex;
+  flex-direction: row;
+  color: #ffffff;
+}
+
+.logo-txt {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-logo-txt {
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 29px;
+  text-decoration: none;
+}
+
+.secondary-logo-txt {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  text-decoration: none;
+}
+
+.logo-section:hover {
+  color: #f26522;
+}
+
+.logo-section:hover .logo-section-default {
+  display: none;
+}
+
+.logo-section:hover .logo-section-colored {
+  display: block;
+}
+
+.logo-section-colored {
+  display: none;
+}
+
+.logo-section-default {
+  display: block;
+}
+
+.contacts-container {
+  margin: 46px 160px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts-container a {
+  font-size: 18px;
+  line-height: 18px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.mail {
+  margin-bottom: 10px;
+}
+
+.mail:hover {
+  color: #f26522;
+}
+
+.tel:hover {
+  color: #f26522;
+}
+
+.main-container {
+  margin-top: 22px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-element {
+  display: flex;
+  height: 220px;
+  margin: 38px 60px;
+  text-align: center;
+  position: relative;
+}
+
+.main-link {
+  color: #ffffff;
+}
+
+.main-link:hover {
+  color: #f26522;
+}
+
+.main-element a {
+  text-decoration: none;
+}
+
+.main-elements-txt {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.main-link-price {
+  background-color: #f26522;
+  color: #ffffff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+}
+
+.main-link:hover .main-link-price {
+  display: block;
+}
+
+.main-link-price-top-txt {
+  text-align: start;
+  font-size: 10px;
+  line-height: 10px;
+  margin: 7px 16px;
+}
+
+.main-link-price-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-link-price-left-txt {
+  font-size: 20px;
+  line-height: 20px;
+  margin: 0 0 12px 16px;
+}
+
+.main-link-price-right-txt {
+  font-size: 14px;
+  line-height: 14px;
+  margin-right: 10px;
+}
+
+.main-link-price-right-txt::after {
+  content: url(../img/Vector\ 1.svg);
+  padding-left: 10px;
+}
+
+.footer-txt {
+  font-size: 12px;
+  line-height: 12px;
+  color: #ffffff;
+  text-align: center;
+  padding: 50px 0 50px 0px;
+}
